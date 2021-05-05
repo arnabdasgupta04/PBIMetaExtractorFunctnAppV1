@@ -1,0 +1,12 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+msrestazure
+azure-functions-durable
+azure-mgmt-datafactory==0.13.0
+azure-mgmt-resource==15.0.0
+pytz
+pandas
+snowflake-connector-python[pandas]==2.3.10

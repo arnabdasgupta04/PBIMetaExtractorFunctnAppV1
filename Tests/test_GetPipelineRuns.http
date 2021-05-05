@@ -1,0 +1,13 @@
+
+
+POST http://localhost:7071/api/ADFMetaExtractorCore
+Content-Type: application/json
+
+    {
+                "api_name"         : "GetPipelineRuns",
+                "resource_group"   : "cdp-sedw.rg",
+                "factory_name"     : "lllcdpsedwadf1",
+                "api_limit"        : 100,
+                "watermark_offset" : 1
+
+    }
